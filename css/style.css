@@ -12701,7 +12701,7 @@ textarea.form-control {
 .widgetPosition-Bottom-Right {
     position: fixed;
     bottom: 20px;
-    right: 15px;
+    right: 16px;
 }
 
 .whatsappWidget {
@@ -12725,14 +12725,14 @@ textarea.form-control {
 
 .widgetPosition-Bottom-Right2 {
     position: fixed;
-    bottom: 119px;
-    right: 19px;
+    bottom: 123px;
+    right: 24px;
 }
 
 .widgetPosition-Bottom-Right3 {
     position: fixed;
     bottom: 175px;
-    right: 21px;
+    right: 19px;
 }
 
 
@@ -12850,17 +12850,17 @@ input[type="radio"] {
 /* The Close Button */
 
 .close {
-    color: white;
+    color: grey;
     position: absolute;
     top: 10px;
-    right: 25px;
+    right: 15px;
     font-size: 35px;
     font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: #999;
+    color: rgb(10, 10, 10);
     text-decoration: none;
     cursor: pointer;
 }
