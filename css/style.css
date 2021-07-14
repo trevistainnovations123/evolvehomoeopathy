@@ -12847,7 +12847,7 @@ input[type="radio"] {
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     min-height: 500px;
 }
