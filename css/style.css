@@ -2022,6 +2022,11 @@ pre code {
     .table-responsive-md>.table-bordered {
         border: 0;
     }
+    .mySlides img {
+        height: 280px;
+        width: 280px;
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -9901,6 +9906,7 @@ h5,
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     border-radius: 30px;
+    background: rgba(47, 137, 252, 0.9);
 }
 
 @media (max-width: 991.98px) {
@@ -10206,7 +10212,7 @@ h5,
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span a {
-    color: #fff;
+    color: #29653c;
 }
 
 .owl-carousel.home-slider .slider-item.bread-item {
@@ -11304,7 +11310,7 @@ textarea.form-control {
     width: 50px;
     display: block;
     float: left;
-    background: rgba(255, 255, 255, 0.05);
+    /* background: rgba(255, 255, 255, 0.05); */
     border-radius: 50%;
     position: relative;
 }
@@ -12946,4 +12952,20 @@ img.hover-shadow {
 
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer .telegram {
+    color: rgba(0, 123, 255, .9);
+}
+
+footer .instagram {
+    color: rgba(219, 85, 129, .9);
+}
+
+footer .twitter {
+    color: rgba(76, 117, 242, .9);
+}
+
+footer .facebook {
+    color: rgba(76, 117, 242, .9);
 }
