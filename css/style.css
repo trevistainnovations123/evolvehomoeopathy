@@ -12972,3 +12972,922 @@ footer .facebook {
 
 
 /*************************************************************************************/
+
+@import url("https://fonts.googleapis.com/css?family=Arial:300,400,700|Roboto:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.wFormContainer {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px
+}
+
+.wFormContainer a,
+.wFormContainer a:visited {
+    text-decoration: none;
+    color: #eb2026
+}
+
+.wFormContainer a:hover {
+    text-decoration: underline;
+    color: #eb2026
+}
+
+.wForm :link {
+    text-decoration: none;
+    color: #eb2026
+}
+
+.wFormContainer .htmlSection {
+    margin: 0 auto
+}
+
+.wFormContainer {}
+
+.wFormContainer .wForm {
+    background-color: #fff;
+    color: #444;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 0.2rem;
+    padding: 0 !important;
+    -webkit-box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.4);
+    margin-top: 1em;
+}
+
+.wFormContainer .wForm form {
+    padding: 0 3rem 2rem 3rem
+}
+
+.wFormThankYou {
+    padding: 20px 30px !important;
+    min-height: 110px !important
+}
+
+.wFormContainer .wFormHelp {
+    padding: 20px 30px !important;
+    min-height: 110px !important
+}
+
+.reviewHeader,
+.reviewResponse,
+.reviewFooter {
+    padding: 20px !important;
+    background-color: #fff !important;
+    border: 1px solid rgba(0, 0, 0, 0.4) !important;
+    border-radius: 0.15rem !important;
+    margin-bottom: 20px !important;
+    color: #444 !important
+}
+
+.saveAndResume {
+    font-size: 0.9em
+}
+
+.saveAndResume input[type='text'],
+.saveAndResume input[type='password'],
+.required:not(.choices):not(select):not(.wfAutosuggest) {
+    font-family: 'Roboto' !important;
+    color: #222 !important;
+    border: 1px solid #949494 !important;
+    border-radius: 0.15rem !important;
+    box-sizing: border-box;
+    font-size: 1em !important;
+    width: 20em;
+    background-color: #fff !important;
+    padding: 0 0.5rem !important
+}
+
+.saveAndResume input[type='text'],
+.saveAndResume input[type='password'],
+input[type='text'].validate-email,
+input[type='password']#password {
+    height: 35px !important
+}
+
+.saveAndResume input[type='text']:focus,
+.saveAndResume input[type='password']:focus,
+input[type='text'].validate-email:focus,
+input[type='password']#password:focus {
+    outline-style: none;
+    border: 2px solid #949494 !important;
+    color: #222
+}
+
+input.primaryAction.slds-button.slds-button--brand.full-width {
+    margin-top: 0 !important
+}
+
+.reviewActions {
+    margin-top: 1.6em !important
+}
+
+#wFormResumePage legend,
+#responsePasswordResetform legend {
+    font-size: 16px !important;
+    color: #eb2026 !important;
+    font-family: 'Arial' !important;
+    margin-bottom: 20px;
+    font-weight: 900
+}
+
+.wForm .fa-search.tt-search,
+.wForm .fa-spinner.tt-spinner,
+.wForm .fa-times-circle.tt-clear {
+    color: #222
+}
+
+.wFormWebPage {
+    background-color: #f2f2f2
+}
+
+@media only screen and (max-width:600px) {
+    .wFormWebPage {
+        margin: 0 !important
+    }
+    .wFormWebPage .wForm {
+        border-radius: 0;
+        padding: 0 !important
+    }
+    .wFormWebPage .wForm form {
+        padding: 0 1rem 2rem 1rem
+    }
+}
+
+#preview .mobile form {
+    padding: 0 1rem 2rem 1rem
+}
+
+.wFormContainer {}
+
+.wFormContainer .wFormHeader {
+    height: 50px;
+    margin: 1em 0;
+    background: url('') no-repeat left;
+    background-position: center;
+    height: 50px;
+    background-size: contain
+}
+
+@media only screen and (max-width:600px) {
+    .wFormContainer .wFormHeader {
+        margin-left: 0.5em
+    }
+}
+
+.wFormContainer .wForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.wFormContainer .wForm .wFormTitle {
+    font-family: 'Arial';
+    padding: 1.5rem 3rem !important;
+    margin: 0;
+    font-size: 24px;
+    background-color: #eb2026;
+    background: linear-gradient(to bottom, #eb2026dd 30%, #eb2026 100%);
+    color: #fff
+}
+
+.wFormContainer .wForm .section.pageSection>h4 {
+    font-size: 16px;
+    color: #eb2026;
+    font-family: 'Arial'
+}
+
+.wFormContainer .wForm .htmlSection h4 {
+    font-size: 16px;
+    color: #eb2026;
+    font-family: 'Arial'
+}
+
+.wForm div.section>.preField {
+    font-size: 16px !important;
+    color: #eb2026 !important;
+    font-family: 'Arial' !important
+}
+
+@media only screen and (max-width:600px) {
+    .wFormContainer .wForm .wFormTitle {
+        margin: 0
+    }
+    .wFormContainer .wForm .wFormTitle {
+        padding: 1rem !important
+    }
+}
+
+#preview .mobile .wFormTitle {
+    padding: 1rem !important
+}
+
+.wFormContainer {}
+
+.wFormContainer .wForm #wfTabNav {
+    padding: 1.6em 3rem;
+    font-size: 0.9em
+}
+
+.wFormContainer .wfTab {
+    margin: 0 1px;
+    width: 1.5em;
+    line-height: 1.5em;
+    background-color: #fff;
+    border-radius: 0.15rem;
+    color: #eb2026;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1;
+    border: 1px solid #eb2026
+}
+
+.wFormContainer .wfTab:hover {
+    margin: 0 1px;
+    background-color: #1f7bad;
+    border-radius: 0.15rem;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    text-decoration: none;
+    transition: all 0.25s linear
+}
+
+.wFormContainer .wfTabSep {
+    display: none
+}
+
+.wFormContainer .wfTab.wfTabCurrentPage {
+    font-weight: 700;
+    background-color: #eb2026;
+    color: #fff;
+    opacity: 1
+}
+
+.wFormContainer .wfTab.wfHiddenTab,
+.wFormContainer .wfTab.wfHiddenTab:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: rgba(0, 0, 0, 0.5);
+    cursor: not-allowed;
+    border: 1px solid rgba(0, 0, 0, 0.15)
+}
+
+#preview .mobile .wfTabNav {
+    padding: 1rem 1rem 0 1rem;
+    font-size: 12px
+}
+
+#preview .mobile .wTab,
+#preview .mobile .wTab:hover {
+    margin: 0 0.1em 0.2em 0.1em;
+    padding: 5px 5px
+}
+
+.wFormContainer fieldset {
+    margin: 1em 0 0.5em 0;
+    color: #444 !important;
+    border: solid 1px #eb2026 !important;
+    border-radius: 0.15rem
+}
+
+.wFormContainer fieldset.highlighted {
+    border: solid 2px #eb2026 !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4)
+}
+
+.wFormContainer fieldset legend {
+    font-size: 16px !important;
+    color: #eb2026 !important;
+    font-family: 'Arial' !important
+}
+
+.wFormContainer .group>.label {
+    margin-top: 1em;
+    color: #444
+}
+
+.htmlSection .htmlContent span {
+    color: #444 !important;
+    font-family: 'Arial' !important;
+    font-size: 100% !important;
+    line-height: auto
+}
+
+.htmlSection .htmlContent {
+    color: #444 !important;
+    font-family: 'Arial' !important;
+    font-size: 100% !important;
+    line-height: auto
+}
+
+.wFormContainer fieldset>fieldset:last-child {
+    margin-bottom: 0;
+    color: #444
+}
+
+.wFormContainer .pageSection>*:not([type="hidden"]):last-child {
+    margin-bottom: 0;
+    color: #eb2026
+}
+
+.wFormContainer {}
+
+.wFormContainer table.matrixLayout thead tr.headerRow,
+.wFormContainer table.gridLayout thead tr.headerRow {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.wFormContainer table.matrixLayout thead tr.headerRow th,
+.wFormContainer table.gridLayout thead tr.headerRow th {
+    padding: 0.25em;
+    vertical-align: center;
+    color: #444 !important
+}
+
+.wFormContainer table.matrixLayout tbody tr th.headerCol,
+.wFormContainer table.gridLayout tbody tr th.headerCol {
+    color: #444 !important
+}
+
+.wFormContainer table.matrixLayout tbody tr:nth-child(odd),
+.wFormContainer table.gridLayout tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.04)
+}
+
+.wFormContainer table.matrixLayout tbody tr:nth-child(even),
+.wFormContainer table.gridLayout tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.025)
+}
+
+.wFormContainer table.matrixLayout tbody td,
+.wFormContainer table.gridLayout tbody td {
+    padding: 0.25em
+}
+
+.wForm .gridLayout .headerCol {
+    vertical-align: middle !important;
+    padding: 9px 0 !important
+}
+
+#preview .wFormContainer table.matrixLayout tbody tr:nth-child(n),
+#preview .wFormContainer table.gridLayout tbody tr:nth-child(n) {
+    background-color: rgba(0, 0, 0, 0.04)
+}
+
+#preview .wFormContainer table.matrixLayout tbody tr:nth-child(4n),
+#preview .wFormContainer table.gridLayout tbody tr:nth-child(4n) {
+    background-color: rgba(0, 0, 0, 0.025)
+}
+
+table {
+    font-size: 14px
+}
+
+.wForm .gridLayout.stacked {
+    margin: 20px 0
+}
+
+.wForm .gridLayout.stacked tr {
+    margin: 10px 1rem 10px 0;
+    padding: 10px auto;
+    width: 92.5%
+}
+
+.wForm .gridLayout.stacked tr td {
+    height: auto !important
+}
+
+.wForm .gridLayout.stacked tr td input[type='text'] {
+    max-width: 90%
+}
+
+#preview .mobile .matrixLayout,
+#preview .mobile .gridLayout {
+    margin: 20px 0 !important
+}
+
+.wFormContainer {}
+
+.wFormContainer .label {
+    font-weight: 400;
+    font-family: 'Arial';
+    color: #444;
+    padding-bottom: 4px
+}
+
+.wFormContainer .label.preField {
+    line-height: 1.5rem;
+    color: #444
+}
+
+.wFormContainer .oneChoice {
+    margin-bottom: 4px !important;
+    padding: 0.2em 0;
+}
+
+.wFormContainer .oneChoice .label.postField {
+    vertical-align: middle !important;
+    color: #444
+}
+
+.wFormContainer .reqMark:after {
+    color: #222bab
+}
+
+.oneField .label span {
+    color: #444 !important;
+    font-family: 'Arial' !important;
+    font-size: 100% !important
+}
+
+.wFormContainer {}
+
+.wFormContainer .wForm {}
+
+.wFormContainer .wForm .inputWrapper {}
+
+.wFormContainer .wForm .inputWrapper input[type='text'],
+.wFormContainer .wForm .inputWrapper input[type='password'],
+.wFormContainer .wForm .inputWrapper select,
+.wFormContainer .wForm .inputWrapper textarea {
+    font-family: 'Roboto';
+    color: #222;
+    border: 1px solid #949494;
+    border-radius: 0.15rem;
+    box-sizing: border-box;
+    font-size: 1em;
+    width: 20em;
+    background-color: #fff
+}
+
+.wFormContainer .wForm .inputWrapper input[type='text'],
+.wFormContainer .wForm .inputWrapper input[type='password'],
+.wFormContainer .wForm .inputWrapper select:not([multiple]) {
+    height: 35px;
+    padding: 0 0.5rem
+}
+
+.wFormContainer .wForm .inputWrapper select[multiple] {
+    width: auto
+}
+
+.wFormContainer .wForm .inputWrapper input[type='file'] {
+    height: 35px;
+    padding: 0 0.5rem 0 0 !important;
+    border: none !important;
+    background: transparent !important;
+    font-size: 14px !important;
+    font-family: 'Arial' !important;
+    color: #444 !important
+}
+
+.wFormContainer .wForm .inputWrapper textarea {
+    height: 5em;
+    padding: 0.5rem !important
+}
+
+.wFormContainer .wForm .inputWrapper select option {
+    padding: 0.25em 8px;
+    font-family: 'Roboto'
+}
+
+.wFormContainer .wForm .inputWrapper input:not([type="file"]):not(.tt-hint):read-only,
+.wFormContainer .wForm .inputWrapper textarea:read-only {
+    font-family: 'Roboto';
+    background-color: #fff !important;
+    border: 1px solid #bbb !important;
+    color: #444 !important
+}
+
+.wFormContainer .wForm .inputWrapper input:not([type="file"]):not(.tt-hint):-moz-read-only,
+.wFormContainer .wForm .inputWrapper textarea:-moz-read-only {
+    font-family: 'Roboto';
+    background-color: #fff !important;
+    border: 1px solid #bbb !important;
+    color: #444 !important
+}
+
+.wFormContainer .wForm .inputWrapper textarea:focus,
+.wFormContainer .wForm .inputWrapper textarea.required:focus,
+.wFormContainer .wForm .inputWrapper input[type='text']:focus,
+.wFormContainer .wForm .inputWrapper input[type='text'].required:focus,
+.wFormContainer .wForm .inputWrapper input[type='password']:focus,
+.wFormContainer .wForm .inputWrapper input[type='password'].required:focus,
+.wFormContainer .wForm .inputWrapper select:focus,
+.wFormContainer .wForm .inputWrapper select.required:focus {
+    outline-style: none;
+    border: 2px solid #949494 !important;
+    color: #222
+}
+
+.wFormContainer .wForm .inputWrapper textarea.required:not(readonly):focus {
+    border: 1px solid #bbb !important
+}
+
+.wFormContainer .wForm .inputWrapper .oneChoice input[type="checkbox"],
+.wFormContainer .wForm .inputWrapper .oneChoice input[type='radio'] {
+    height: initial;
+    margin-bottom: 5px
+}
+
+label.tfa_esig_typeCheckbox {
+    padding-top: 5px
+}
+
+.wFormContainer .wForm .inputWrapper .oneChoice .label {
+    margin-left: 5px;
+    padding: 0
+}
+
+@media only screen and (max-width:600px) {
+    .wFormContainer .wForm .inputWrapper select[multiple] {
+        width: auto;
+        -webkit-appearance: none;
+        height: 45px
+    }
+}
+
+.wFormContainer .field-hint-inactive,
+.wFormContainer .field-hint {
+    line-height: 100%;
+    font-size: 1em
+}
+
+.wFormContainer .field-hint-inactive .hint {
+    font-size: 0.75em;
+    line-height: 1.75em;
+    transition: all 0.25s linear
+}
+
+.wFormContainer .field-hint .hint {
+    font-size: 0.75em;
+    line-height: 1.75em;
+    transition: all 0.25s linear
+}
+
+.wFormContainer .lengthIndicator,
+.wFormContainer .count-words {
+    font-size: 0.75em;
+    margin-top: 1px;
+    color: #000
+}
+
+#preview #render .wForm .oneField.hintsTooltip .field-hint {
+    background-color: #fff !important;
+    padding: 0.3em
+}
+
+.wForm .hintsTooltip .hint {
+    color: #222 !important;
+    background-color: transparent !important
+}
+
+.wForm .field-hint-inactive .hint {
+    background-color: #fff !important;
+    color: #000 !important;
+    opacity: 0.5 !important
+}
+
+.wForm .hintsBelow .field-hint,
+.wform .hintsSide .field-hint {
+    background-color: #fff !important;
+    color: #000 !important;
+    opacity: 1 !important
+}
+
+.wFormContainer {}
+
+.wFormContainer .wfAutosuggest.tt-hint {
+    margin-top: 0
+}
+
+.wFormContainer .wfAutosuggest.tt-input {
+    background-color: #fff !important
+}
+
+.wFormContainer .tt-spinner {
+    top: 0.6rem;
+    right: 0.25rem
+}
+
+.tt-menu {
+    background-color: #fff !important;
+    color: #222 !important
+}
+
+.tt-suggestion {
+    font-family: 'Roboto' !important;
+    font-size: 14px !important;
+    color: #222 !important
+}
+
+html {}
+
+html .kalendae {
+    background: #fff;
+    border: 2px solid #949494 !important;
+    font-size: 0.85em;
+    font-family: 'Arial';
+    border-radius: 0;
+    padding: 1rem;
+}
+
+html .kalendae .k-calendar {
+    width: 14em;
+}
+
+html .kalendae .k-calendar .k-header span,
+html .kalendae .k-calendar .k-days span {
+    width: calc(2em - 2px) !important;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+    box-sizing: border-box !important
+}
+
+html .kalendae .k-calendar .k-title,
+html .kalendae .k-calendar .k-header,
+html .kalendae .k-calendar .k-days {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    color: #444
+}
+
+html .kalendae .k-calendar .k-header span,
+html .kalendae .k-calendar .k-days span {
+    height: 25px !important;
+    line-height: inherit;
+    text-align: right;
+    padding: 2px 0.25em 5px 2px !important;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+    margin-bottom: 2px !important
+}
+
+html .kalendae .k-calendar .k-btn-close:hover {
+    color: #444;
+    border-color: #fff
+}
+
+html .kalendae .k-calendar .k-caption {
+    font-size: 0.85em;
+    color: #eb2026
+}
+
+html .kalendae .k-calendar .k-btn-previous-month,
+html .kalendae .k-calendar .k-btn-next-month,
+html .kalendae .k-calendar .k-btn-previous-year,
+html .kalendae .k-calendar .k-btn-next-year {
+    color: #eb2026;
+    line-height: normal;
+    height: auto;
+    font-size: 1.4em;
+    font-weight: 400
+}
+
+html .kalendae .k-calendar .k-btn-previous-month:hover,
+html .kalendae .k-calendar .k-btn-next-month:hover,
+html .kalendae .k-calendar .k-btn-previous-year:hover,
+html .kalendae .k-calendar .k-btn-next-year:hover {
+    color: #eb2026;
+    font-weight: 700
+}
+
+html .kalendae .k-calendar .k-header span {
+    color: #444;
+    margin: 5px auto
+}
+
+html .kalendae .k-calendar .k-days span.k-in-month.k-active {
+    color: #fff;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: #eb2026;
+    height: auto;
+    padding-top: 0;
+    margin-bottom: 0;
+    opacity: 0.7
+}
+
+html .kalendae .k-calendar .k-days span.k-in-month {
+    color: #444;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height: auto;
+    padding-top: 0;
+    margin-bottom: 0;
+    opacity: 0.7
+}
+
+html .kalendae .k-calendar .k-days span.k-out-of-month {
+    color: #444;
+    background-color: rgba(0, 0, 0, 0);
+    height: auto;
+    padding-top: 0;
+    margin-bottom: 0;
+    opacity: 0.5
+}
+
+html .kalendae .k-calendar .k-days span.k-selected.k-active {
+    background: #eb2026;
+    color: #fff;
+    opacity: 1
+}
+
+html .kalendae .k-calendar .k-days span.k-active:hover {
+    border-color: #949494;
+    opacity: 1
+}
+
+.wFormContainer {}
+
+.wFormContainer .oneField.errFld {}
+
+.wFormContainer .oneField.errFld .inputWrapper {}
+
+.wFormContainer .oneField.errFld .inputWrapper input[type='text'],
+.wFormContainer .oneField.errFld .inputWrapper input[type='password'],
+.wFormContainer .oneField.errFld .inputWrapper textarea,
+.wFormContainer .oneField.errFld .inputWrapper select {
+    border-color: #222bab !important
+}
+
+.wFormContainer .oneField.errFld .inputWrapper input[type="text"].required {
+    border-color: #222bab
+}
+
+.wFormContainer .oneField.errFld div.errMsg {
+    margin-top: 0.5em;
+    color: #222bab
+}
+
+.wfTab.wfTabCurrentPage.errMsg,
+.wfTab.errMsg {
+    border: 1px solid #222bab !important
+}
+
+.wfTab.wfTabCurrentPage.errMsg,
+.wfTab.errMsg:hover {
+    background-color: #222bab;
+    color: #fff !important
+}
+
+.wfTab.errMsg {
+    background-color: #fff;
+    color: #222bab
+}
+
+.errorMessage {
+    color: #222bab !important
+}
+
+a.errMsg {
+    color: #222bab;
+    text-decoration: underline
+}
+
+.wFormContainer .errMsg {
+    color: #222bab !important
+}
+
+.wFormContainer {}
+
+.wFormContainer .actions {
+    margin-top: 0;
+}
+
+.wFormContainer .actions .primaryAction {
+    background-color: #eb2026;
+    color: #fff;
+    margin-top: 1.6em;
+    padding: 6.8px 13.6px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Arial';
+    -webkit-appearance: none;
+    border-radius: 0.15rem
+}
+
+.wFormContainer .actions .primaryAction:hover {
+    background-color: #1f7bad;
+    color: #fff
+}
+
+.wFormContainer .actions .primaryAction:disabled {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-appearance: none;
+    border-radius: 0.15rem;
+    cursor: not-allowed
+}
+
+.wFormContainer .wfPagingButtons {
+    margin-top: 0;
+}
+
+.wFormContainer .wfPagingButtons .wfPageNextButton,
+.wFormContainer .wfPagingButtons .wfPagePreviousButton {
+    background-color: #eb2026;
+    color: #fff;
+    margin-top: 1.6em;
+    padding: 6.8px 13.6px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Arial';
+    -webkit-appearance: none;
+    border-radius: 0.15rem
+}
+
+.wFormContainer .wfPagingButtons .wfPageNextButton:hover,
+.wFormContainer .wfPagingButtons .wfPagePreviousButton:hover {
+    background-color: #1f7bad;
+    color: #fff
+}
+
+@media only screen and (max-width:600px) {
+    .wFormContainer .actions .primaryAction,
+    .wFormContainer .wfPagingButtons .wfPageNextButton,
+    .wFormContainer .wfPagingButtons .wfPagePreviousButton {
+        min-width: 150px;
+        font-size: 16px;
+        padding: 6.8px 20px
+    }
+}
+
+#preview .mobile .primaryAction,
+#preview .mobile .wfPageNextButton,
+#preview .mobile .wfPagePreviousButton {
+    min-width: 150px;
+    font-size: 16px;
+    padding: 6.8px 20px
+}
+
+.wFormContainer .wFormFooter {}
+
+.wFormContainer .wFormFooter .supportInfo {
+    text-align: center
+}
+
+.wFormContainer .wFormFooter .supportInfo a {
+    color: #eb2026;
+    text-decoration: none
+}
+
+.wFormContainer .wFormFooter .supportInfo a:hover {
+    color: #eb2026;
+    text-decoration: underline
+}
+
+.wFormContainer .oneField,
+.wFormContainer .section {
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.wFormContainer .wForm .removeSpan {
+    display: block;
+    float: none;
+    text-align: right
+}
+
+.wFormContainer .wForm td .removeSpan {
+    display: inline;
+    float: right;
+    text-align: inherit
+}
+
+
+/************************************************************************/
+
+#my-popup {
+    Width: 600px;
+    Height: 400px;
+    Background: gray;
+    Box-sizing: border-box;
+    /* for inside padding */
+    Padding: 10px;
+    /* for center */
+    Position: absolute;
+    top: 50%;
+    left: 50%;
+    Transform: translate(-50%, -50%);
+    /* for hider */
+    display: none;
+}

@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -424,9 +426,9 @@
                 </div>
             </div>
             <div class="row  mt-5 justify-conten-center">
-                <div class="col-md-8 ftco-animate">
+                <!-- <div class="col-md-8 ftco-animate">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi vero accusantium sunt sit aliquam ipsum molestias autem perferendis, incidunt cumque necessitatibus cum amet cupiditate, ut accusamus. Animi, quo. Laboriosam, laborum.</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -570,8 +572,22 @@
         <div class="parallax-img d-flex align-items-center">
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+                    <div class="col-md-6 text-center heading-section heading-section-white ftco-animate">
                         <h2>Subcribe to our Newsletter</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+                        <div class="row d-flex justify-content-center mt-5">
+                            <div class="col-md-8">
+                                <form action="#" class="subscribe-form">
+                                    <div class="form-group d-flex">
+                                        <input type="text" class="form-control" placeholder="Enter email address">
+                                        <input type="submit" value="Subscribe" class="submit px-3">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center heading-section heading-section-white ftco-animate">
+                        <h2>Mentorship Enrollment</h2>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
                         <div class="row d-flex justify-content-center mt-5">
                             <div class="col-md-8">
@@ -1045,6 +1061,30 @@
             </div>
         </div>
     </div>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div id="myModal" class="modal fade">
+    
+        <div class="modal-dialog">
+    
+            <div class="modal-content" style="text-align: center;">
+    
+             <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times;</button>
+    
+                <div >
+    
+                    <img src="./images/logo-wide.png" alt="" srcset="">
+                    <img src="./images/celeb.png" alt="" srcset="" style="width: -webkit-fill-available;">
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+
+
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <a href="#" target="_blank ">
         <div class="whatsappWidget widgetPosition-Bottom-Right3 "><img src="images/twitter.png" class="whatsappIcon rounded-circle" height="60" width="60"></div>
     </a>
@@ -1060,6 +1100,27 @@
     <!----------------------------------------------------------------------------------------------->
     <script src="//d1obeh937niaj.cloudfront.net/js/app.js?id=990e27950c74d6cf1747"></script>
     <script src="//d1obeh937niaj.cloudfront.net/js/corona.js?id=d8c7af3fd868d1e2e4a4"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/npm.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () { 
+        if (sessionStorage.getItem('#myModal') !== 'true') { 
+            $("#myModal").modal("show");
+    
+    
+    
+    sessionStorage.setItem('#myModal', 'true');
+        }
+    });
+    
+    </script>
+
+
+
+
 
     <script type="text/javascript">
         $(document).ready(function() {
@@ -1091,7 +1152,9 @@
             });
         });
     </script>
+    <!------------------------------------------------------------------------------------------->
 
+    <!--------------------------------------------------------------------------------------------------->
     <script src="js/jquery.min.js "></script>
     <script src="js/jquery-migrate-3.0.1.min.js "></script>
     <script src="js/popper.min.js "></script>
